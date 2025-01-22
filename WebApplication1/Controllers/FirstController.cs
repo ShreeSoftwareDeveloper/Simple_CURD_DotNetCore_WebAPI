@@ -15,6 +15,7 @@ namespace WebApplication1.Controllers
         {
             _first = first;
         }
+       // Get All the API
         [HttpGet]
         public async Task<string> GetHello()
         {
